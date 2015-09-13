@@ -1,4 +1,5 @@
 FROM fhisamoto/oracle-java8
+MAINTAINER "Fabio Hisamoto" <fhisamoto@gmail.com>
 
 # Activator
 RUN \

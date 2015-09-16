@@ -13,9 +13,6 @@ RUN (\
 COPY srv/etc/service/app/run_app.sh /etc/service/app/run
 RUN chmod +x /etc/service/app/run
 
-RUN rm -rf /opt/tomcat/webapps/docs /opt/tomcat/webapps/examples /opt/tomcat/webapps/ROOT
-ONBUILD ADD application.war /opt/tomcat/webapps/ROOT.war
-
 WORKDIR /app
 EXPOSE 8080
 ENTRYPOINT ["/sbin/my_init"]

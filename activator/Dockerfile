@@ -1,4 +1,4 @@
-FROM fhisamoto/oracle-java8
+FROM 99taxis/oracle-java8
 MAINTAINER "Fabio Hisamoto" <fhisamoto@gmail.com>
 
 # Activator

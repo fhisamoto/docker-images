@@ -1,4 +1,4 @@
-FROM fhisamoto/oracle-java8
+FROM 99taxis/oracle-java8
 MAINTAINER "Fabio Hisamoto" <fhisamoto@gmail.com>
 
 COPY srv/etc/service/app/run_app.sh /etc/service/app/run
